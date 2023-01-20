@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{064c46a5-2c1b-460b-b07e-ebf96a09ae30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowMenu">
+      <UniqueIdentifier>{0f4bcff8-2924-461f-9926-2ce6e8d27542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{098f3154-e97a-4b07-903a-2626a6c81591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ISingleton">
+      <UniqueIdentifier>{f6417fbf-356b-446c-9274-c19bc295c7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Healer">
+      <UniqueIdentifier>{05a93601-7065-496e-9fe2-7301c7c36f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacketSending">
+      <UniqueIdentifier>{9e8d1942-00d0-4771-a0fc-1c9d0053eac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mem">
+      <UniqueIdentifier>{08a24a44-b0f9-42fa-b070-ae36124fe52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d1cf5d90-ad4b-46bc-9f3e-f3b05b4a8701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{d5bbbc33-0b7d-43d2-bd14-56a314106893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoAttack">
+      <UniqueIdentifier>{54a6d23d-596f-45fe-aff8-900e3c652e91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>WindowMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Healer.cpp">
+      <Filter>Healer</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSend.cpp">
+      <Filter>PacketSending</Filter>
+    </ClCompile>
+    <ClCompile Include="MemReader.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoAttack.cpp">
+      <Filter>AutoAttack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>WindowMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ISingleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Healer.h">
+      <Filter>Healer</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketSend.h">
+      <Filter>PacketSending</Filter>
+    </ClInclude>
+    <ClInclude Include="MemReader.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoAttack.h">
+      <Filter>AutoAttack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tibia-Bot.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bot.ico" />
+  </ItemGroup>
+</Project>
